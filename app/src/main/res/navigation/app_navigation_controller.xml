@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/movieListFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.mobilecastle.moviedb.views.movielist.MovieListFragment"
+        android:label="@string/popular_movie_list"
+        tools:layout="@layout/movie_list_fragment">
+
+        <action
+            android:id="@+id/action_movieListFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.mobilecastle.moviedb.views.moviedetails.MovieDetailsFragment"
+        android:label="@string/movie_details"
+        tools:layout="@layout/movie_details_fragment" />
+</navigation>

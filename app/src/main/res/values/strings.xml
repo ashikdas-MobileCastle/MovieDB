@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MovieDB</string>
+    <string name="popular_movie_list">Popular Movie List</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="connection_problem">Connection Problem!!</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="subname">Sub Name</string>
+    <string name="movie_info">Movie Info</string>
+    <string name="release_date">Release Date: </string>
+    <string name="dummy_date">2020</string>
+    <string name="rating">Rating: </string>
+    <string name="dummy_rating">8</string>
+    <string name="movie_duration">Duration: </string>
+    <string name="dummy_duration">2.3hr</string>
+    <string name="movie_budget">Budget: </string>
+    <string name="dummy_budget">1000000</string>
+    <string name="movie_revenue">Revenue: </string>
+    <string name="dummy_revenue">2000000</string>
+    <string name="movie_overview">Overview</string>
+    <string name="dummy_overview">overview .........</string>
+</resources>
