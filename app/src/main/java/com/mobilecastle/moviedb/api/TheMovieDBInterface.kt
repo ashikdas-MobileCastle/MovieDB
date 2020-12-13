@@ -1,5 +1,6 @@
 package de.mobilecastle.moviedb.api
 
+import com.mobilecastle.moviedb.data.TVSeriesResponse
 import de.mobilecastle.moviedb.data.MovieDetails
 import de.mobilecastle.moviedb.data.MovieResponse
 import io.reactivex.Single
@@ -23,4 +24,7 @@ interface TheMovieDBInterface {
 
     @GET("movie/{movie_id}")
     fun getMovieDetails(@Path("movie_id") id: Int): Single<MovieDetails>
+
+    @GET("tv/popular")
+    fun getPopularTVSeries(@Query("page") page: Int): Single<TVSeriesResponse>
 }

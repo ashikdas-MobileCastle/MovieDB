@@ -18,4 +18,19 @@
     <string name="dummy_revenue">2000000</string>
     <string name="movie_overview">Overview</string>
     <string name="dummy_overview">overview .........</string>
+    <string name="dummy_txt"> Humans are coming closer to the internet at a very fast rate. It means that the
+          volume of data Industries is gathering will increase as time passes because of
+          more users. Industry’s are gradually analyzing the need for this useful information
+          they are getting from their users. It is for sure that the data always tends to
+          an increasing pattern so the company’s are eventually acquiring professionals
+          skilled with Big Data Technologies. According to NASSCOM, India’s Big Data
+          Market will reach 16 billion USD by 2025 from 2 billion USD. The growth of smart
+          devices in India is growing at a very huge rate that will cause growth in the
+          Big Data Market. Since Big Data is growing the demand for Big Data professionals
+          will be high.  Hadoop provides personalized recommendations and personalizes ad targeting
+          features. Companies are generating thousands of petabytes of data every day so the
+          demand for Big Data professionals is very high. Even after a few years,
+          Hadoop will be considered as the must-learn skill for the data-scientist
+          and Big Data Technology. Companies are investing big in it and it will become
+          an in-demand skill in the future. </string>
 </resources>
