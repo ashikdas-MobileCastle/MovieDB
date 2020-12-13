@@ -17,7 +17,6 @@ import de.mobilecastle.moviedb.data.MovieDetails
 import de.mobilecastle.moviedb.repository.MovieDetailsRepository
 import de.mobilecastle.moviedb.utilities.AppConstants.POSTER_BASE_URL
 import de.mobilecastle.moviedb.utilities.NetworkState
-import de.mobilecastle.moviedb.viewmodels.MovieDetailsViewModel
 import kotlinx.android.synthetic.main.content_movie.*
 import kotlinx.android.synthetic.main.movie_details_fragment.*
 import java.text.NumberFormat

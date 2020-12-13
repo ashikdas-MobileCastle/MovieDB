@@ -1,4 +1,4 @@
-package de.mobilecastle.mvvmsampleapp.view.MovieList
+package com.mobilecastle.moviedb.views.popularmovie
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

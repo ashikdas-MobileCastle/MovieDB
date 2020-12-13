@@ -1,4 +1,4 @@
-package com.mobilecastle.moviedb.views.movielist
+package com.mobilecastle.moviedb.views.popularmovie
 
 import android.content.Context
 import android.os.Bundle
@@ -15,7 +15,6 @@ import de.mobilecastle.moviedb.api.TheMovieDBClient
 import de.mobilecastle.moviedb.api.TheMovieDBInterface
 import de.mobilecastle.moviedb.repository.MoviePagedListRepository
 import de.mobilecastle.moviedb.utilities.NetworkState
-import de.mobilecastle.mvvmsampleapp.view.MovieList.MovieListViewModel
 import de.mobilecastle.mvvmsampleapp.view.MovieList.MoviePagedListAdapter
 import kotlinx.android.synthetic.main.movie_list_fragment.*
 

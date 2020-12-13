@@ -1,4 +1,4 @@
-package de.mobilecastle.moviedb.viewmodels
+package com.mobilecastle.moviedb.views.moviedetails
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
